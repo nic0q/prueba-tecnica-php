@@ -8,7 +8,6 @@ de multiplicación -->
     while($i < $b){
       $ac = $ac + $a;
       $i++;
-      
     }
     return $ac;
   }
