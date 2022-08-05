@@ -1,3 +1,6 @@
+<!-- Task 1:
+Dado un número, mostrar su serie de Fibonacci. (La serie de Fibonacci es un
+orden de números dónde cada número es la suma de los dos anteriores) -->
 <?php
   function fibo($n){
     $a = 0;
@@ -9,12 +12,11 @@
       $b = $t;
       $i++;
     }
-    echo $a."\n";
+    return $a;
   }
-  fibo(0);
-  fibo(1);
-  fibo(2);
-  fibo(3);
-  fibo(4);
+  echo fibo(0)."\n";
+  echo fibo(1)."\n";
+  echo fibo(2)."\n";
+  echo fibo(3)."\n";
 ?>
 
